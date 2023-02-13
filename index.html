@@ -5,109 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devstudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--contiene la navegacion principal de la pagina-->
-      <nav>
-        <ul>
-          <li><a href="index.html">webstudio</a></li>
-          <li><a href="#">estudio</a></li>
-          <li><a href="#">portafolio</a></li>
-          <li><a href="#">contactos</a></li>
+      <nav class="navegacion-principal">
+        <ul class="enlaces">
+          <li >
+            <a href="index.html" class="webstudio">WebStudio</a>
+          </li>
+          <li>
+            <!--carga la pagina estudio en una ventana nueva-->
+            <a
+              href="./studio.html"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+              >Estudio</a
+            >
+          </li>
+          <li>
+            <!--carga la pagina portafolio en una ventana nueva-->
+            <a
+              href="./portafolio.html"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+              >Portafolio</a
+            >
+          </li>
+          <li>
+            <!--carga la pagina  en una ventana nueva-->
+            <a
+              href="./contactos.html"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+              >Contactos</a
+            >
+          </li>
+
+          <!--contiene el correo y el numero de contacto-->
+          <li>
+            <a href="mailto:info@devstudio.com">Info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+525555296000">+525555296000</a>
+          </li>
         </ul>
+        <!--cierra el contenedor del correo y el numero de contacto-->
       </nav>
-      <div>
-        <!--contiene el correo y el numero de contacto-->
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+525555296000">+525555296000</a>
-      </div>
-      <!--cierra el contenedor del correo y el numero de contacto-->
     </header>
     <!--cierra la navegacion principal de la pagina-->
-    <main>
+    <main class="contenedor">
       <!--menu principal de la pagina-->
-      <section>
-        <img src="./images/BgTitulo.jpg" alt="background titulo principal" />
+      <section class="menu-principal">
+        <!--<img src="./images/BgTitulo.jpg" alt="background titulo principal" />-->
         <h1>soluciones eficaces para su negocio</h1>
-        <button>solicite nuestro servicio</button>
+        <button type="button" class="button-servicio">Solicite nuestro servicio</button>
+      </section>
+      <section class="nuestros-servicios">
+        <!--seccion servicios-->
+        <ul class="servicios">
+          <li>
+            <h3>atencion a los detalles</h3>
+            <p>
+              Nos adentramos en todos los detalles y procesos de su negocio,
+              para así desarrollar una solución a su medida.
+            </p>
+          </li>
+          <li>
+            <h3>puntualidad</h3>
+            <p>
+              Con nosotros, usted puede sentirse seguro y protegido. Un
+              principio importante de la empresa: respetar su tiempo y respetar
+              los plazos acordados.
+            </p>
+          </li>
+          <li>
+            <h3>planificacion</h3>
+            <p>
+              Usted podrá observar y participar en cada fase del desarrollo y
+              aplicación de soluciones.
+            </p>
+          </li>
+          <li>
+            <h3>tecnologia moderna</h3>
+            <p>
+              Usamos herramientas innovadoras para resolver las tareas
+              asignadas. Es hora de simplificar los procesos laborales.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!--cierra seccion servicios-->
+      <section class="#">
+        <!--A qué nos dedicamos-->
+        <h2>A qué nos dedicamos</h2>
+        <ul class="dedicamos">
+          <li><img src="./images/DiseñoWeb.jpg" alt="diseño_web" /></li>
+          <li>
+            <img src="./images/DiseñoMobile.jpg" alt="aplicaciones_mobiles" />
+          </li>
+          <li>
+            <img src="./images/PantallaTactil.jpg" alt="pantalla_tactil" />
+          </li>
+        </ul>
+      </section>
+      <!--cierra a qué nos dedicamos-->
+      <section class="miembros-equipo">
+        <h2>Nuestro Equipo</h2>
+        <ul class="equipo">
+          <li class="background-imagenes" >
+            <!--andres cubo-->
+            <img class="fotos" src="./images/AndresCubo.jpg" alt="AndresCubo"  />
+            <h3>Andres Cubo</h3>
+            <p>Diseñador de productos</p>
+          </li>
+
+          <li class="background-imagenes">
+            <img class="fotos"
+              src="./images/CarlaPalacios.jpg"
+              alt="CarlaPalacios"
+
+            />
+            <h3>Carla Palacios</h3>
+            <p>Desarrolladora Frontend</p>
+          </li>
+          <li class="background-imagenes">
+            <!--mario dorado-->
+            <img class="fotos" src="./images/MarioDorado.jpg" alt="MarioDorado"  />
+            <h3>Mario Dorado</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="background-imagenes">
+            <!--pablo mijangos-->
+            <img class="fotos"
+              src="./images/PabloMijangos.jpg"
+              alt="PabloMijangos"
+
+            />
+            <h3>Pablo Mijangos</h3>
+            <p>Diseñador IU</p>
+          </li>
+        </ul>
       </section>
     </main>
     <!-- cierra el menu principal de la pagina-->
-    <section>
-      <!--seccion servicios-->
-      <div>
-        <h3>atencion a los detalles</h3>
-        <p>
-          Nos adentramos en todos los detalles y procesos de su negocio, para
-          así desarrollar una solución a su medida.
-        </p>
-      </div>
-      <div>
-        <h3>puntualidad</h3>
-        <p>
-          Con nosotros, usted puede sentirse seguro y protegido. Un principio
-          importante de la empresa: respetar su tiempo y respetar los plazos
-          acordados.
-        </p>
-      </div>
-      <div>
-        planificacion
-        <p>
-          Usted podrá observar y participar en cada fase del desarrollo y
-          aplicación de soluciones.
-        </p>
-      </div>
-      <div>
-        <h3>tecnologia moderna</h3>
-        <p>
-          Usamos herramientas innovadoras para resolver las tareas asignadas. Es
-          hora de simplificar los procesos laborales.
-        </p>
-      </div>
-    </section>
-    <!--cierra seccion servicios-->
-    <section>
-      <!--A qué nos dedicamos-->
-      <h2>a que nos dedicamos</h2>
-      <img src="./images/DiseñoWeb.jpg" alt="diseño_web" />
-      <img src="./images/DiseñoMobile.jpg" alt="aplicaciones_mobiles" />
-      <img src="./images/PantallaTactil.jpg" alt="pantalla_tactil" />
-    </section>
-    <!--cierra a qué nos dedicamos-->
-    <section>
-      <h2>nuestro equipo</h2>
-      <div>
-        <!--andres cubo-->
-        <img src="./images/AndresCubo.jpg" alt="AndresCubo" width="200" />
-        <h3>Andres Cubo</h3>
-        <span>Diseñador de productos</span>
-      </div>
-      <div>
-        <!--carla palacios-->
-        <img src="./images/CarlaPalacios.jpg" alt="CarlaPalacios" width="200" />
-        <h3>Carla Palacios</h3>
-        <span>Desarrolladora Frontend</span>
-      </div>
-      <div>
-        <!--mario dorado-->
-        <img src="./images/MarioDorado.jpg" alt="MarioDorado" width="200" />
-        <h3>Mario Dorado</h3>
-        <span>Marketing</span>
-      </div>
-      <div>
-        <!--pablo mijangos-->
-        <img src="./images/PabloMijangos.jpg" alt="PabloMijangos" width="200" />
-        <h3>Pablo Mijangos</h3>
-        <span>Diseñador IU</span>
-      </div>
-    </section>
-    <footer>
-      <img src="./images/Bg.jpg" alt="background footer" />
-      <a href="index.html">webstudio</a>
-      <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+525555296000">+525555296000</a>
+    <footer class="footer">
+      <!--<img src="./images/Bg.jpg" alt="background footer"/>-->
+      <a class="webstudio" href="index.html">webstudio</a>
+      <address>
+        <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
+        <ul class="footer-informacion">
+          <li ><a class="footer-info"href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li ><a class="footer-info "href="tel:+525555296000">+525555296000</a></li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>

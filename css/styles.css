@@ -1,0 +1,222 @@
+:root{
+    --fuenteRaleway:'Raleway', sans-serif;
+    --fuenteRoboto: 'Roboto', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;/* para usar los rem igual a 10 px*/}
+    *,*::before, *after {
+        box-sizing: inherit;
+    }
+    .contenedor{
+        max-width: 160rem;
+        margin: 0 auto;
+    }
+body{
+    background-color: #E5E5E5;
+}
+
+.header
+{
+    max-width: 160rem;
+    margin: auto;
+    background-color: #fff;
+    height: 8rem;
+}
+.enlaces{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    padding:2.5rem;
+    align-items:center;
+
+}
+a{
+    font-family: var(--fuenteRoboto);
+    color:#212121;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.4rem;
+}
+a:hover{
+    color: #2196f3;
+}
+
+.webstudio{
+    color: #2196f3;
+    font-family: var(--fuenteRaleway);
+    outline: none;
+    font-style: bold;
+    font-size: 2.6rem;
+}
+.menu-principal{
+    background-color:#2F303A ;
+    max-width: 160rem;
+    height: 60rem;
+    top: 8rem;
+}
+h1{
+    font-family: var(--fuenteRoboto);
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 448px;
+    top: 280px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button-servicio{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+position: absolute;
+width: 21.6rem;
+height: 5rem;
+left: 666px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px #00000080;
+border-radius: 4px;
+width: 30rem;
+height: 3rem;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.nuestros-servicios > .servicios{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    padding:2.5rem;
+    align-items:center;
+}
+h3{
+font-family:var(--fuenteRoboto);
+text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.nuestros-servicios p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+h2{
+    font-family: var(--fuenteRoboto);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:#212121
+}
+.dedicamos{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    padding:2.5rem;
+    align-items:center;
+}
+.equipo{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    padding:2.5rem;
+    align-items:center;
+}
+.fotos{
+    height: 26rem;
+    width: 27rem;
+}
+.miembros-equipo p{
+    font-family: 'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.background-imagenes{
+    width: 27rem;
+    height: 36.8rem;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+
+}.footer{
+    position: absolute;
+    width: 160rem;
+    height: 25.2rem;
+    left: 0rem;
+    background-color: #2F303A;
+}.footer p{
+    font-family: var(--fuenteRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.03em;
+    text-align: left;;
+    color: #FFFFFF;
+}
+.footer-info {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.4rem;
+}
+.footer-informacion{
+    list-style-type: none;
+}
+/*css pagina portafolio*/
+.contenedor-portafolio{
+    position: absolute;
+    width: 117rem;
+    height: 136rem;
+    left: 21.5rem;
+    top: 18.6rem;
+}
+.categoria-portafolio {
+    display: flex;
+    display: inline;
+    justify-content: space-evenly;
+    padding:2.5rem;
+    align-items:center;
+}
