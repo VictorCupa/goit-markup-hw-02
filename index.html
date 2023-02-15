@@ -5,74 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devstudio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!--carga la hoja de estilos de la pagina-->
+    <!--carga de fuentes paginas-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <!--contiene la navegacion principal de la pagina-->
       <nav class="navegacion-principal">
         <ul class="enlaces">
-          <li >
-            <a href="index.html" class="webstudio">WebStudio</a>
-          </li>
+          <li><a class="webstudio" href="index.html">Webstudio</a></li>
           <li>
-            <!--carga la pagina estudio en una ventana nueva-->
-            <a
-              href="./studio.html"
-              target="_blank"
-              rel="noopener nofollow noreferrer"
+            <a href="studio.html" target="_blank" rel="noreferrer noopener"
               >Estudio</a
             >
           </li>
           <li>
-            <!--carga la pagina portafolio en una ventana nueva-->
-            <a
-              href="./portafolio.html"
-              target="_blank"
-              rel="noopener nofollow noreferrer"
+            <a href="portafolio.html" target="_blank" rel="noreferrer noopener"
               >Portafolio</a
             >
           </li>
           <li>
-            <!--carga la pagina  en una ventana nueva-->
-            <a
-              href="./contactos.html"
-              target="_blank"
-              rel="noopener nofollow noreferrer"
+            <a href="contactos.html" target="_blank" rel="noreferrer noopener"
               >Contactos</a
             >
           </li>
-
           <!--contiene el correo y el numero de contacto-->
-          <li>
-            <a href="mailto:info@devstudio.com">Info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+525555296000">+525555296000</a>
-          </li>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+525555296000">+525555296000</a></li>
+          <!--cierra el contenedor del correo y el numero de contacto-->
         </ul>
-        <!--cierra el contenedor del correo y el numero de contacto-->
       </nav>
     </header>
     <!--cierra la navegacion principal de la pagina-->
-    <main class="contenedor">
+    <main>
       <!--menu principal de la pagina-->
-      <section class="menu-principal">
+      <section class="seccion-principal">
         <!--<img src="./images/BgTitulo.jpg" alt="background titulo principal" />-->
         <h1>soluciones eficaces para su negocio</h1>
-        <button type="button" class="button-servicio">Solicite nuestro servicio</button>
+        <button class="servicio" type="button">
+          solicite nuestro servicio
+        </button>
       </section>
-      <section class="nuestros-servicios">
+      <section class="Caracteristicas">
         <!--seccion servicios-->
-        <ul class="servicios">
+        <ul class="cualidades">
           <li>
             <h3>atencion a los detalles</h3>
             <p>
@@ -105,51 +86,74 @@
         </ul>
       </section>
       <!--cierra seccion servicios-->
-      <section class="#">
+      <div class="productos">
         <!--A qué nos dedicamos-->
         <h2>A qué nos dedicamos</h2>
-        <ul class="dedicamos">
-          <li><img src="./images/DiseñoWeb.jpg" alt="diseño_web" /></li>
+        <ul class="imagenes-producto">
           <li>
-            <img src="./images/DiseñoMobile.jpg" alt="aplicaciones_mobiles" />
+            <img
+              class="aplicaciones"
+              src="./images/DiseñoWeb.jpg"
+              alt="diseño_web"
+            />
           </li>
           <li>
-            <img src="./images/PantallaTactil.jpg" alt="pantalla_tactil" />
+            <img
+              class="aplicaciones"
+              src="./images/DiseñoMobile.jpg"
+              alt="aplicaciones_mobiles"
+            />
+          </li>
+          <li>
+            <img
+              class="aplicaciones"
+              src="./images/PantallaTactil.jpg"
+              alt="pantalla_tactil"
+            />
           </li>
         </ul>
-      </section>
-      <!--cierra a qué nos dedicamos-->
-      <section class="miembros-equipo">
+        <!--cierra a qué nos dedicamos-->
+      </div>
+
+      <section class="nuestro-equipo">
         <h2>Nuestro Equipo</h2>
         <ul class="equipo">
-          <li class="background-imagenes" >
+          <li>
             <!--andres cubo-->
-            <img class="fotos" src="./images/AndresCubo.jpg" alt="AndresCubo"  />
+            <img
+              class="integrantes-equipo"
+              src="./images/AndresCubo.jpg"
+              alt="AndresCubo"
+            />
             <h3>Andres Cubo</h3>
             <p>Diseñador de productos</p>
           </li>
 
-          <li class="background-imagenes">
-            <img class="fotos"
+          <li>
+            <img
+              class="integrantes-equipo"
               src="./images/CarlaPalacios.jpg"
               alt="CarlaPalacios"
-
             />
             <h3>Carla Palacios</h3>
             <p>Desarrolladora Frontend</p>
           </li>
-          <li class="background-imagenes">
+          <li>
             <!--mario dorado-->
-            <img class="fotos" src="./images/MarioDorado.jpg" alt="MarioDorado"  />
+            <img
+              class="integrantes-equipo"
+              src="./images/MarioDorado.jpg"
+              alt="MarioDorado"
+            />
             <h3>Mario Dorado</h3>
             <p>Marketing</p>
           </li>
-          <li class="background-imagenes">
+          <li>
             <!--pablo mijangos-->
-            <img class="fotos"
+            <img
+              class="integrantes-equipo"
               src="./images/PabloMijangos.jpg"
               alt="PabloMijangos"
-
             />
             <h3>Pablo Mijangos</h3>
             <p>Diseñador IU</p>
@@ -159,13 +163,18 @@
     </main>
     <!-- cierra el menu principal de la pagina-->
     <footer class="footer">
-      <!--<img src="./images/Bg.jpg" alt="background footer"/>-->
       <a class="webstudio" href="index.html">webstudio</a>
       <address>
         <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-        <ul class="footer-informacion">
-          <li ><a class="footer-info"href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li ><a class="footer-info "href="tel:+525555296000">+525555296000</a></li>
+        <ul class="contactos">
+          <li>
+            <a class="contactame" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contactame" href="tel:+525555296000">+525555296000</a>
+          </li>
         </ul>
       </address>
     </footer>
