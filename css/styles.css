@@ -165,15 +165,20 @@ font-size: 14px;
 .botones-filtro{
     list-style-type: none;
     display: flex;
-    align-items: center;
     justify-content:center;
+    
+    padding: 10px;
+    gap: 20px;
+
 }
+
 .estilos-boton{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
+
 }
 .estilos-boton:hover{
     background-color: #2196F3;
