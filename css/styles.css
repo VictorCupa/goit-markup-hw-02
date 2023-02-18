@@ -1,28 +1,51 @@
 :root{
-    --colorfondopagina:#E5E5E5;
+    --colorfondopagina:#FFFFFF;
     --colorheader:#fff;
     --fuenteRaleway:font-family: 'Raleway', sans-serif;/*fuente de la cabecera de la pagina*/
     --fuentegeneral:font-family: 'Roboto', sans-serif;/*fuente general para la pagina*/
 }
 body{
+    
     background-color: var(--colorfondopagina);
+    
 }
+
 /*Estilos index.html*/
 /*header*/
 .header{
-    max-width: 100%;
+    width: 1600px;
     height: 80px;
     left: 0px;
     top: 0px;
     background-color:var(--colorheader);
-
+    
 }
+/* .navegacion-principal{
+    display:flex;
+    justify-content: space-evenly;
+
+} */
 .enlaces{
+
+    /* display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem ; */
     list-style-type: none;
     text-decoration: none;
-   /*display: flex;*/
-    justify-content:space-evenly;
+    
+}
 
+.contactos{
+
+        /* display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem; */
+    list-style-type: none;
+    text-decoration: none;
+    
+    
 }
 a{
 top: 32px;
@@ -33,17 +56,20 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
+
 list-style-type: none;
 text-decoration: none;
 }
 a:hover{
     color:#2196f3;
 }
+a:focus {
+color: #2196F3;
+}
+a:active{
+    color:#2196F3;
+}
 .webstudio{
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
     font-family:'Raleway';;
     font-style: normal;
     font-weight:bold;
@@ -72,6 +98,7 @@ color: #FFFFFF;
 .servicio{
     color: #FFFFFF;
     background-color: #2196f3;
+    cursor: pointer;
 }
 
 /*servicios ofrecidos*/
@@ -92,7 +119,7 @@ h3{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #757575;
 }
 /*productos*/
@@ -133,6 +160,8 @@ font-size: 16px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.8;
+
     }
 /*footer*/
 .footer {
@@ -144,6 +173,7 @@ font-size: 16px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.7;
     color: #FFFFFF;
 }
 .contactos{
@@ -178,14 +208,16 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
+cursor: pointer;
 
 }
 .estilos-boton:hover{
     background-color: #2196F3;
     color: #FFFFFF;
 }
-.categorias{
+.lista-tarjetas{
     list-style-type: none;
+    
 }
 h4{
     font-family: 'Roboto';
@@ -195,8 +227,9 @@ font-size: 18px;
 color: #212121;
 }
 .categorias p{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
+line-height: 1.9;
 }
