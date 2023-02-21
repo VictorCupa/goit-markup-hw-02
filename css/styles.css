@@ -15,9 +15,8 @@ body{
 .header{
     width: 1600px;
     height: 80px;
-    left: 0px;
-    top: 0px;
     background-color:var(--colorheader);
+    
     
 }
 /* .navegacion-principal{
@@ -83,6 +82,7 @@ a:active{
 /*seccion principal pagina*/
 .seccion-principal{
     background-color: #2f303a;
+    margin-top: 80px;
 }
 h1{
 font-family:'roboto';
@@ -152,6 +152,7 @@ height: 323.7px;
 .nuestro-equipo h3{
 font-family: 'Roboto';
 font-style: normal;
+text-align: center;;
 font-weight: 500;
 font-size: 16px;
 }
@@ -161,11 +162,13 @@ font-size: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
+    text-align: center;;
 
     }
 /*footer*/
 .footer {
     background-color: #2f303a;
+    top:80x;
     
 }
 .footer p{
@@ -194,11 +197,12 @@ font-size: 14px;
 /*estilos portafolio.html */
 .botones-filtro{
     list-style-type: none;
-    display: flex;
+    margin-top: 80px;
+    /* display: flex;
     justify-content:center;
     
     padding: 10px;
-    gap: 20px;
+    gap: 20px; */
 
 }
 
