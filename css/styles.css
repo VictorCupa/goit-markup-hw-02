@@ -198,6 +198,7 @@ font-size: 14px;
 .botones-filtro{
     list-style-type: none;
     margin-top: 80px;
+    border: none;
     /* display: flex;
     justify-content:center;
     
