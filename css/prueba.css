@@ -1,0 +1,10 @@
+p{
+    font-size: 18px;
+    line-height: 4.5;
+    vertical-align: top;
+    text-decoration: overline wavy red;
+    text-decoration: line-through dashed green;
+    text-decoration: underline solid blue;
+    text-decoration: underline overlined double grey;
+
+}
