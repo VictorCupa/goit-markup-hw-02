@@ -58,17 +58,16 @@ color: #212121;
 list-style-type: none;
 text-decoration: none;
 }
-a:hover{
-    color:#2196f3;
-}
-.pagina-activa:focus {
-color: #2196F3;
-}
-.pagina-activa {
-    color: #2196F3;}
-a:active{
+.color-activo:hover {
     color:#2196F3;
 }
+.color-activo:focus{
+    color: #2196F3;
+}
+.color-activo{
+    color: #2196F3;
+}
+
 .webstudio{
     font-family:'Raleway';;
     font-style: normal;
@@ -90,7 +89,12 @@ a:active{
     list-style-type: none;
     text-decoration: none;
     }
-
+a:hover{
+    color: #2196F3;
+}
+a:focus{
+    color:#2196F3;
+}
 /*seccion principal pagina*/
 .seccion-principal{
     background-color: #2f303a;
