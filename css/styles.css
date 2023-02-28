@@ -7,7 +7,6 @@
 body{
     
     background-color: var(--colorfondopagina);
-    
 }
 
 /*Estilos index.html*/
@@ -62,9 +61,11 @@ text-decoration: none;
 a:hover{
     color:#2196f3;
 }
-a:focus {
+.pagina-activa:focus {
 color: #2196F3;
 }
+.pagina-activa {
+    color: #2196F3;}
 a:active{
     color:#2196F3;
 }
@@ -78,6 +79,17 @@ a:active{
     letter-spacing: 0.03em;
     color: #2196f3;
 }
+.contactos a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color:#757575;
+    list-style-type: none;
+    text-decoration: none;
+    }
 
 /*seccion principal pagina*/
 .seccion-principal{
